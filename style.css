@@ -1,0 +1,860 @@
+
+
+.beginning{
+    height: 42px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffe4ea;
+    width: 100%;
+    font-size: 1.3rem;
+    color: #082552;
+
+}
+
+.new{
+    margin-right: 10px;
+    background-color: #ff6095;
+    border-radius: 3px;
+    font-size: .98rem;
+    color: #fff;
+    font-weight: 700;
+    padding: 3px 5px;
+
+}
+
+/* ------Container1------ */
+
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*background-color: #082552; */
+   height: 70px;
+    
+}
+
+.logo{
+    padding-top: 120px;
+    cursor: pointer;
+}
+
+.select{
+    padding-right: 250px;
+}
+
+#personal{
+    border: none;
+    font-size: 15px;
+    opacity: 0.5;
+    cursor: pointer;
+
+}
+
+option{
+    color: lightblue;
+    font-size: medium;
+}
+
+.learn{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.login{
+    color: #0066f5;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.signUp button{
+    background-color: #0066f5;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    min-height: 44px;
+    line-height: 44px;
+    position: relative;
+    padding: 0 1.4em;
+    font-family: "CW BR Firma",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-weight: 600;
+    letter-spacing: -.3px;
+    will-change: background-color,opacity,color,transform,box-shadow;
+    box-shadow: 0 4px 6px 1px rgb(0, 102, 245 );
+
+}
+
+
+/* ------Container2------ */
+
+.container2{
+    padding: 30px;
+
+}
+
+.wuraGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+    padding: 80px 0;
+    grid-auto-flow: dense;
+}
+
+.wpict{
+    position: relative;
+    height: 70%;
+    width: 90%;
+    object-fit: cover;
+    background-color: #fff;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    
+   
+}
+
+ul.threepics{
+    display: flex;
+    position: absolute;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 1rem;
+    background-color: #f179a1;
+
+}
+
+.firstpic{
+    max-width: 100%;
+    
+}  
+
+.emailGrid h1{
+    font-size: 6rem;
+    letter-spacing: -7.5px;
+    line-height: 1.1;
+    font-weight: 600;
+    color: #082552;
+    width: 400px;
+}
+
+.emailGrid h6{
+    font-size: 3.0rem;
+    font-weight: 400;
+    margin: 1rem;
+    letter-spacing: -3px;
+    line-height: 1.25;
+    margin-bottom: 0.7em;
+    color: #082552;
+}
+
+#email{
+    margin-right: 10px;
+    border: 1px solid rgba(8,37,82,.11);
+    border-radius: 6px;
+    height: 45px;
+    background-color: #fff;
+    width: 50%;
+
+}
+
+#email::placeholder{
+    opacity: 0.5;
+    padding-left: 10px;
+    font-size: larger;
+}
+
+
+button.start{
+    background-color: #0066f5;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    padding: 1.4em;
+    box-sizing: 0 4px 6px 1px rgb(0 102 245 / 18%);
+}
+
+
+.conscious{
+    background-color: #fff;
+    min-height: 180px;
+    width: 340px;
+    padding: 24px 32px;
+    position: absolute;
+    left: 300px;
+    bottom: -300px;
+    z-index: 5;
+}
+
+.conscious .become{
+    
+    color: #6c82a3;
+    
+}
+
+.conscious .flexwura{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexwura a{
+    color: #0066f5;
+    font-size: inherit;
+    text-decoration: none;
+}
+
+
+
+/* ------Container3------ */
+
+.container3{
+    margin: 10px;
+}
+.rich h2{
+    margin-left: -2px;
+    visibility: inherit;
+    opacity: 1;
+    margin-bottom: 1rem;
+    line-height: 1;
+    font-size: 6rem;
+    letter-spacing: -4.5px;
+    color: #082552;
+    display: block;
+}
+
+.rich span{
+    font-style: italic;
+    font-weight: 100;
+}
+
+.rich h5{
+
+    opacity: 1;
+    visibility: inherit;
+    margin-top: 24px;
+    letter-spacing: -1.8px;
+    font-weight: 500;
+    font-size: 2.7rem;
+    line-height: 1.25;
+    margin-bottom: 0.7em;
+    color: #082552;
+    display: block;
+    
+
+}
+
+button.financial{
+    background-color: #0066f5;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    min-height: 44px;
+    color: #fff;
+    line-height: 44px;
+    position: relative;
+    text-decoration: none;
+    padding: 0.1em;
+    font-weight: 600;
+    letter-spacing: -.3px;
+    box-shadow: 0 4px 6px 1px rgb(0 102 245 / 18%);
+}
+
+.littleGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bar{
+    opacity: 1;
+    visibility: inherit;
+    transform: translate(0px, 0px);
+    position: relative;
+    bottom: 32%;
+    /* left: -28%; */
+    z-index: 20;
+    margin-left: 50%;
+}
+
+
+.bar::after{
+    content: "1";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-feature-settings: "tnum";
+    color: #082552;   
+    position: absolute;
+    top: 0;
+    right: -10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    text-align: center;
+    background-color: #fff;
+    font-weight: 700;
+    border: 1px solid rgba(8,37,82,.07);
+    box-shadow: 1px 1px 2px rgb(8 37 82 / 1)
+}
+
+.bar1{
+    opacity: 1;
+    visibility: inherit;
+    transform: translate(0px, 0px);
+    bottom: 10%;
+    /*left: 1%;  */
+    position: relative;
+    margin-left: 30%;
+    z-index: 20; 
+}
+
+.bar1::after{
+    content: "2";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-feature-settings: "tnum";
+    color: #082552;
+    position: absolute;
+    top: 0;
+    right: 150px;  
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    text-align: center;
+    background-color: #fff;
+    font-weight: 700;
+    border: 1px solid rgba(8,37,82,.07);
+    box-shadow: 1px 1px 2px rgb(8 37 82 / 10%);
+
+}
+
+.bar2{
+    opacity: 1;
+    visibility: inherit;
+    transform: translate(0px, 0px);
+    top: 8%;
+    /* right: 25%; */
+    position: relative;
+    z-index: 20;
+
+}
+
+.bar2::after{
+
+    content: "3";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-feature-settings: "tnum";
+    color: #082552;
+    position: absolute;
+    top: 0;
+    right: 400px; 
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    text-align: center;
+    background-color: #fff;
+    font-weight: 700;
+    border: 1px solid rgba(8,37,82,.07);
+    box-shadow: 1px 1px 2px rgb(8 37 82 / 10%);
+
+}
+
+.build, .invest, .stay{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 24px 24px;
+    border-radius: 12px;
+    background-color: #fff;
+    width: 300px;
+    border: 1px solid rgba(8, 37, 82, .07);
+    box-shadow: 1px 3px 4px rgb(8 37 82 / 4%);
+
+}
+
+
+.build h6, .invest h6, .stay h6{
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.7rem;
+    letter-spacing: -1px;
+    color: #082552;
+}
+
+.build p, .invest p, .stay p{
+    margin: 8px 0 0;
+    line-height: 1.4;
+    font-size: 1.2rem;
+    color: #6c82a3;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    visibility: inherit;
+}
+
+
+
+
+/* ------Container4------ */
+
+.container4{
+    margin: 10px;
+
+}
+
+
+.name h2{
+    font-size: 5.2rem;
+    letter-spacing: -.064em;
+    font-weight: 600;
+    line-height: 1.00;
+    margin-bottom: 0.7em;
+    color: #082552;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    width: 35%;
+}
+
+marquee .inbuilt{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 32px;
+    padding: 20px;
+    border: 1px solid #0066f5;
+    border-radius: 24px;
+    min-height: 220px;
+    max-width: 380px;
+}
+
+ .inbuilt h4{
+    font-size: 2rem;
+    color: #0066f5;
+    font-weight: 500;
+    margin: 0;
+    letter-spacing: -.06em;
+    padding-top: 16px;
+    position: relative;
+    
+} 
+
+
+/* ------Container5------ */
+
+.container5{
+
+    padding-top: 50px;
+
+}
+
+.phonegrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+#phone{
+    padding: 50px;
+    height: 70%;
+    width: 50%;
+    
+}
+
+.fiveMin{
+    margin-left: 0;
+}
+
+.minutes h2{
+    color: #082552;
+    font-size: 3rem;
+    letter-spacing: -1px;
+    line-height: 1.25;
+    margin-bottom: 0.7rem;
+    font-weight: 600;
+
+}
+
+.acct h3{
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-weight: 600;
+    color: #082552;
+    position: relative;
+}
+
+.acct p{
+    opacity: .8;
+    color: #082552;
+    font-weight: 400;
+    margin: 15px 0;
+    letter-spacing: -.2px;
+    font-size: 1.3rem;
+}
+
+.acct h3::before{
+    counter-increment: item;
+    content: "0" counter(item);
+    color: #0066f5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    left: -40px;
+    position: absolute;
+}
+
+.fiveMin button{
+    min-height: 48px;
+    padding-left: 1.85em;
+    padding-right: 1.85em;
+    font-size: 16px;
+    letter-spacing: -.3px;
+    text-transform: capitalize;
+    font-weight: 600;
+    background-color: #0066f5;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    line-height: 44px;
+    position: relative;
+    text-decoration: none;
+    padding: 0 1.4em;
+    transition-duration: .3s;
+    font-family: "CW BR Firma",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+
+
+}
+
+
+
+
+
+
+
+/* ------Container6------ */
+
+.container6{
+    padding-bottom: 550px;
+    padding: 30px ;
+    background-color: #0066f5;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.keep h1{
+    width: 35%;
+    font-size: 3em;
+    color: #fff;
+}
+
+.keep p{
+    color: #fff;
+    width: 35%;
+    font-size: 1.1rem;
+}
+
+.keep h5{
+    color: grey;
+    opacity: 1;
+}
+
+.topGrid{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding-left: 3rem;
+}
+
+.sector p, .sector-right p{
+    width: 70%;
+    color: #fff;
+    opacity: .7;
+    font-size: larger;
+}
+
+.sector h3, .sector-right h3{
+    color: #fff;
+}
+
+.sector h3::before{
+    content: "";
+    background-color: #fff;
+    box-shadow: 
+    3px 3px 0 0 hsl(0deg 0% 100% / 30%);
+    height: 14px;
+    width: 14px;
+    border-radius: 3px;
+    position: absolute;
+    left: 30px;
+    
+}
+
+.sector-right h3::before{
+    content: "";
+    background-color: #fff;
+    box-shadow: 
+    3px 3px 0 0 hsl(0deg 0% 100% / 30%);
+    height: 14px;
+    width: 14px;
+    border-radius: 3px;
+    position: absolute;
+    left: 630px;
+    
+}
+
+/* ------Container7------ */
+
+
+
+
+
+/* ------Container8------ */
+
+.container8{
+    padding: 50px 30px;
+}
+
+.gridplayStore{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.topStore{
+    width: 90%;
+    border-radius: 10px;
+    border:  .5px;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+
+.topAva{
+    display: grid;
+    grid-template-columns: 20% 50% 20%;
+}
+
+.topAva h3{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0;
+    color: #082552;
+}
+
+.topAva h3 sub{
+    opacity: .5;
+    font-size: 2rem;
+}
+
+.topStore h3{
+    color: #082552;
+
+}
+
+.topStore p{
+    opacity: .5;
+    padding-bottom: 30px;
+}
+
+.topStore a{
+    text-decoration: none;
+    color: #0066f5;
+    box-shadow: none;
+    font-size: 12.5px;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    font-weight: 600;
+}
+
+
+/* ------Container9------ */
+.container9{
+    padding-bottom: 50px;
+}
+.space{
+    margin: 10px;
+    background-color: #0066f5;
+    border-radius: 5px;
+}
+
+.gridSign{
+    display: grid;
+    grid-template-columns: .6fr 1.4fr;
+    padding: 80px 80px;
+}
+
+.free{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+
+#yourEmail{
+    position: relative;
+    margin-left: 25%;
+    width: 70%;
+    height: 50%;
+    margin-top: 60px ;
+    border-radius: 6px;
+    background-color: hsla(0,0%,100%,.25);
+    cursor: pointer;
+}
+
+.butt-free{
+    position: absolute;
+    color: #082552;
+    background-color: #fff;
+    border: none;
+    font-size: 16px ;
+    letter-spacing: -.3px;
+    font-weight: 600;
+    height: 9%;
+    width: 19%;
+    border-radius: 6px;
+    right: 140px;
+    top: 268.4em;
+    margin-right: 10px;
+
+}
+
+.butt-free:hover{
+    background-color: #082552;
+    color: #fff;
+    cursor: pointer;
+}
+
+#yourEmail::placeholder{
+    padding: 30px;
+    color: #fff;
+    opacity: .5;
+    font-size: larger;
+}
+
+
+/* ------Container10------ */
+
+footer{
+    padding-bottom: 50px;
+}
+
+.gridAll{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.company h3{
+    margin-left: 40px;
+    color: #082552;
+
+}
+ 
+.company ul{
+    list-style-type: none;
+}
+
+.company ul li{
+    margin-bottom: 30px;
+    
+    opacity: .5;
+    cursor: pointer;
+}
+
+.company ul li:hover{
+    color: #0066f5;
+}
+
+hr{
+    margin: 50px;
+}
+
+.social{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bundle{
+    box-sizing: border-box;
+    flex-basis: 58.3333333333%;
+    max-width: 58.3333333333%;
+    padding: 1rem;
+}
+
+.bundle ul{
+    padding: 0;
+    list-style-type: none;
+    margin: 20px;
+}
+
+.bundle ul li{
+    display: inline-block;
+    margin-top: 20px;
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+
+.gridSmall{
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+    margin: 10px;
+}
+
+.NG{
+    font-size: medium;
+    color: #082552;
+}
+
+.secGrid{
+    display: flex;
+    background-color: whitesmoke;
+    border-radius:  6px;
+}
+
+.secWord h3{
+    color: #082552;
+    font-size: medium;
+    margin-left: 5px;
+}
+
+.secWord span{
+    opacity: .5;
+    font-size: small;
+    padding-top: -5px ;
+    margin-left: 5px;
+}
+
+.write{
+    color: rgba(8,37,82,.48);
+    font-size: 1.2rem;
+    line-height: 1.7;
+    margin: 10px;
+    letter-spacing: -.2px;
+    padding-bottom: 10px;
+}
+
+.write a{
+    color: #0066f5;
+    text-decoration: none;
+    opacity: 1;
+    cursor: pointer;
+}
